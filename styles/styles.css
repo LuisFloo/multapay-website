@@ -209,7 +209,7 @@ body {
         display: flex;
         flex-direction: row;
         position: relative;
-        background-color: var(--orange2);
+        background-color: var(--white);
         justify-content: space-around;
     }
 
@@ -496,14 +496,14 @@ body {
 }
 
 @media (max-width: 860px) {
-    .features {
+    .advantages {
         display: flex;
         flex-direction: column;
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    .features-card-container {
+    .advantages-card-container {
         display: flex;
         flex-direction: column;
         gap: 24px;
@@ -511,14 +511,14 @@ body {
 }
 
 @media (max-width:480px) {
-    .features {
+    .advantages {
         display: flex;
         flex-direction: column;
         padding-left: 16px;
         padding-right: 16px;
     }
 
-    .features-card-container {
+    .advantages-card-container {
         display: flex;
         flex-direction: column;
         gap: 24px;
